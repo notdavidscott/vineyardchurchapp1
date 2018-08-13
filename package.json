@@ -24,6 +24,7 @@
     "@ionic-native/splash-screen": "~4.11.0",
     "@ionic-native/status-bar": "~4.11.0",
     "@ionic/storage": "2.1.3",
+    "cordova-plugin-googlemaps": "^2.3.10",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
@@ -34,5 +35,13 @@
     "@ionic/app-scripts": "3.1.11",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyCsxBE0Sda9OZAE45ix2TojLn9Pa3aN2WM",
+        "API_KEY_FOR_IOS": "AIzaSyCsxBE0Sda9OZAE45ix2TojLn9Pa3aN2WM"
+      }
+    }
+  }
 }

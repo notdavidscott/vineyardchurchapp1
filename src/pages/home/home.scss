@@ -1,3 +1,38 @@
 page-home {
 
+    .vineyard-image {
+        opacity: .9;
+    }
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 1.9em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.75em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+
+      
+      }
+      .home-banner {
+        padding: 0;
+        margin: 0 0 3% 0;
+        width: 100%;
+        height: auto;
+      }
 }

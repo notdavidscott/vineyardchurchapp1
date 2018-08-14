@@ -1,0 +1,31 @@
+page-giving {
+    ion-content {
+        background: url(../../assets/imgs/beach-daylight-environment-722646.jpg) no-repeat center fixed;
+        background-size: cover;
+       &:before {
+           content: '';
+           position: absolute;
+           top: 0;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           background-image: linear-gradient(to bottom right, #4074af, #9a64be);
+           opacity: .4;
+       }
+        }
+
+    .giving-text {
+        color: white;
+        font-size: 6em;
+        text-align: center;
+        margin-top: 50%;
+    }
+    .giving-text-small {
+        color: white;
+        font-size: 1.75em;
+        text-align: center;
+        margin-top: 2%;
+    }
+}
+
+    

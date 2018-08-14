@@ -12,6 +12,7 @@ import { AboutPage } from '../pages/about/about';
 import { BulletinPage } from '../pages/bulletin/bulletin';
 import { LocationPage } from '../pages/location/location';
 import { WorshipPage } from '../pages/worship/worship';
+import { GivingPage } from '../pages/giving/giving';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { WorshipPage } from '../pages/worship/worship';
     AboutPage,
     BulletinPage,
     LocationPage,
-    WorshipPage
+    WorshipPage,
+    GivingPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { WorshipPage } from '../pages/worship/worship';
     AboutPage,
     BulletinPage,
     LocationPage,
-    WorshipPage
+    WorshipPage,
+    GivingPage
   ],
   providers: [
     StatusBar,

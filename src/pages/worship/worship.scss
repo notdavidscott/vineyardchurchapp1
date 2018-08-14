@@ -4,4 +4,60 @@ page-worship {
         height: auto;
         width: 100%;
     }
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+        }
+      
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 1.9em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .card-subtitle {
+          font-size: 1.75em;
+          position: absolute;
+          top: 52%;
+          width: 100%;
+          color: #fff;
+        }
+
+      
+      }
+    .churchbanner {
+        width: 100%;
+        height: auto;
+        
+    }
+ 
+    
+    #map_canvas {
+        width: 100%;
+        height: 100%;
+    
+    }
+    .location-desc {
+        font-size: 1.30em;
+        text-align: center;
+        border-bottom: rgb(124, 124, 124) 1px solid;
+    }
+    #map-filler {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border: 1px solid rgb(173, 173, 173);
+    }
+    .church-banner {
+        padding: 0;
+        margin: 0 0 3% 0;
+        width: 100%;
+        height: auto;
+      }
+
 }

@@ -9,6 +9,8 @@ import { LocationPage } from '../pages/location/location';
 import { AboutPage } from '../pages/about/about';
 import { BulletinPage } from '../pages/bulletin/bulletin';
 import { WorshipPage } from '../pages/worship/worship';
+import { GivingBasePage } from '../pages/giving-base/giving-base';
+import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,6 +33,8 @@ export class MyApp {
       { title: 'Bulletin + Events', component: BulletinPage},
       { title: 'Locations', component: LocationPage },
       { title: 'Worship Team', component: WorshipPage },
+      { title: 'Giving', component: GivingBasePage },
+      { title: 'Mercy WareHouse', component: MercyWarehousePage }
     ];
 
   }

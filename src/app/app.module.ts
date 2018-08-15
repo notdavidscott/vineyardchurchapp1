@@ -13,6 +13,9 @@ import { BulletinPage } from '../pages/bulletin/bulletin';
 import { LocationPage } from '../pages/location/location';
 import { WorshipPage } from '../pages/worship/worship';
 import { GivingPage } from '../pages/giving/giving';
+import { GivingBasePage } from '../pages/giving-base/giving-base';
+import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
+
 
 
 @NgModule({
@@ -24,7 +27,9 @@ import { GivingPage } from '../pages/giving/giving';
     BulletinPage,
     LocationPage,
     WorshipPage,
-    GivingPage
+    GivingPage, 
+    GivingBasePage, 
+    MercyWarehousePage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +44,9 @@ import { GivingPage } from '../pages/giving/giving';
     BulletinPage,
     LocationPage,
     WorshipPage,
-    GivingPage
+    GivingPage, 
+    GivingBasePage, 
+    MercyWarehousePage
   ],
   providers: [
     StatusBar,

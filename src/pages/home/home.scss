@@ -1,13 +1,11 @@
 page-home {
 
-    .vineyard-image {
-        opacity: .9;
-    }
     .card-background-page {
 
         ion-card {
           position: relative;
           text-align: center;
+          background-image: linear-gradient(to bottom right, #6e3097, #ffffff);
         }
       
         .card-title {
@@ -28,11 +26,15 @@ page-home {
         }
 
       
-      }
+    }
       .home-banner {
         padding: 0;
         margin: 0 0 3% 0;
         width: 100%;
         height: auto;
+      }
+
+      .discover-card {
+        text-align: left;
       }
 }

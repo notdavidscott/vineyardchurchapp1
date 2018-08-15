@@ -30,11 +30,11 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Sermons', component: ListPage },
       { title: 'Vineyard Ministries', component: AboutPage },
-      { title: 'Bulletin + Events', component: BulletinPage},
+      { title: 'Mercy Warehouse', component: MercyWarehousePage },
+      { title: 'Events Calendar', component: BulletinPage},
       { title: 'Locations', component: LocationPage },
-      { title: 'Worship Team', component: WorshipPage },
       { title: 'Giving', component: GivingBasePage },
-      { title: 'Mercy WareHouse', component: MercyWarehousePage }
+      
     ];
 
   }

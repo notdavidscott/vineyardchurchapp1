@@ -22,7 +22,13 @@
 <button full ion-button (click)="searchPlaylist()" [disabled]="channelId === ''" color="primary">Search Playlists</button>
 
 <ion-list>
-  
+  <button ion-item *ngFor="let list of playlists | async" (click)="openPlaylist(list.id)">
+    <!-- <ion-thumbnail item-start>
+      <img [src]="list.snippet.thumbnails.standard.url">
+    </ion-thumbnail> -->
+    <h2>{{ list.snippet.title }}</h2>
+    <p> {{ list.snippet.publishedAt | date: 'short'}}</p>
+  </button>
 </ion-list>
 
 
@@ -61,23 +67,5 @@
 </ion-content>
 --> 
 
-
-
-
-  <!--       
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-    
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
-</ion-content>
--->
 
 </ion-content>

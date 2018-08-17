@@ -22,9 +22,9 @@ export class YtProvider {
   })
   }
 
-  getList(listId){
+  getListVideos(listId){
     return this.http.get('https://www.googleapis.com/youtube/v3/playlistItems?key=' + this.apiKey +
-    '&cplaylistId=' + listId + '&part=snippet,id&maxResults=20')
+    '&playlistId=' + listId + '&part=snippet,id&maxResults=20')
     .map(res => {
       return res.json()['items'];
     })

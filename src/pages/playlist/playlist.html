@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="nav">
     <ion-title>playlist</ion-title>
   </ion-navbar>
 
@@ -15,4 +15,14 @@
 
 <ion-content padding>
 
+  <ion-list>
+    <button ion-item *ngFor="let video of videos | async" (click)="openVideo(video)">
+      <!-- <ion-thumbnail item-start>
+        <img src="http://static1.squarespace.com/static/57d61ce8d1758ebde03821d7/t/5b29047e1ae6cf6e20bd0228/1534482717627/?format=1500w">
+      </ion-thumbnail>  -->
+      <h2>{{ video.snippet.title }}</h2>
+      <p> {{ video.snippet.description }}</p>
+    </button>
+  </ion-list>
+  
 </ion-content>

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicApp, IonicErrorHandler, IonicModule, Platform } from 'ionic-angular';
 import { HttpModule, Http } from '@angular/http';
 
 import { MyApp } from './app.component';
@@ -16,9 +16,10 @@ import { WorshipPage } from '../pages/worship/worship';
 import { GivingPage } from '../pages/giving/giving';
 import { GivingBasePage } from '../pages/giving-base/giving-base';
 import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
+import { YtProvider } from '../providers/yt/yt';
 
-
-
+import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
+import { PlaylistPage } from '../pages/playlist/playlist';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
     WorshipPage,
     GivingPage, 
     GivingBasePage, 
-    MercyWarehousePage
+    MercyWarehousePage, 
+    PlaylistPage
   ],
   imports: [
     BrowserModule,
@@ -49,12 +51,16 @@ import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
     WorshipPage,
     GivingPage, 
     GivingBasePage, 
-    MercyWarehousePage
+    MercyWarehousePage, 
+    PlaylistPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
+    YtProvider,
+    YoutubeVideoPlayer,
+    YtProvider
     
   ]
 })

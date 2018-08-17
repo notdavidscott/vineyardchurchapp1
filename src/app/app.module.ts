@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { HttpModule, Http } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -15,6 +16,7 @@ import { WorshipPage } from '../pages/worship/worship';
 import { GivingPage } from '../pages/giving/giving';
 import { GivingBasePage } from '../pages/giving-base/giving-base';
 import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
+
 
 
 
@@ -34,6 +36,7 @@ import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -51,7 +54,8 @@ import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    
   ]
 })
 export class AppModule {}

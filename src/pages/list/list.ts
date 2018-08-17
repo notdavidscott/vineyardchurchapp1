@@ -5,12 +5,23 @@ import { NavController, NavParams } from 'ionic-angular';
   selector: 'page-list',
   templateUrl: 'list.html'
 })
+
+
 export class ListPage {
+
+  playlistId = "";
+  nextPageToken = "";
+  prevPageToken = "";
+
+ //built in list 
   selectedItem: any;
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    
+
+
     // If we navigated to this page, we will have an item available as a nav param
     this.selectedItem = navParams.get('item');
 
@@ -28,11 +39,16 @@ export class ListPage {
       });
     }
   }
+  
 
   itemTapped(event, item) {
     // That's right, we're pushing to ourselves!
     this.navCtrl.push(ListPage, {
       item: item
     });
+    
   }
+
+  
+  
 }

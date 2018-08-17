@@ -1,0 +1,502 @@
+
+ {
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/jgf0vCVvnz2owlRPfsXjZ4gGrSE\"",
+  "nextPageToken": "CAoQAA",
+  "pageInfo": {
+    "totalResults": 50,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/jBH_wajoF4jDwfUKmTz36ZcYic0\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi43NERCMDIzQzFBMERCMEE3",
+      "snippet": {
+        "publishedAt": "2018-08-06T01:26:23.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "The Spirit and your Salvation - Mike Hudgins 8.5.2018",
+        "description": "Sermon Outline:  https://vccgn.org/s/1808Spirit.pdf",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PDEXWaTyXC0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PDEXWaTyXC0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PDEXWaTyXC0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PDEXWaTyXC0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PDEXWaTyXC0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "PDEXWaTyXC0"
+        }
+      },
+      "contentDetails": {
+        "videoId": "PDEXWaTyXC0",
+        "videoPublishedAt": "2018-08-06T01:50:00.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/bQe_FZ-guBVkqHHfSoqBb-rSfCc\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi41NTZEOThBNThFOUVGQkVB",
+      "snippet": {
+        "publishedAt": "2018-07-30T02:58:09.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "The Biblical Foundation for Jesus' Transformative Community - Charlotte Lehman 7.29.2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wsyMIL5laWc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wsyMIL5laWc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wsyMIL5laWc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wsyMIL5laWc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wsyMIL5laWc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wsyMIL5laWc"
+        }
+      },
+      "contentDetails": {
+        "videoId": "wsyMIL5laWc",
+        "videoPublishedAt": "2018-07-30T03:26:40.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/qLSo4SlTcvyknBAogiIEdQTuQ8k\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi42Qzk5MkEzQjVFQjYwRDA4",
+      "snippet": {
+        "publishedAt": "2018-07-23T03:45:25.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Created in Christ Jesus to do Good Works - Mike Hudgins 7.22.2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Yrwmp2DRJM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Yrwmp2DRJM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Yrwmp2DRJM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/4Yrwmp2DRJM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/4Yrwmp2DRJM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "4Yrwmp2DRJM"
+        }
+      },
+      "contentDetails": {
+        "videoId": "4Yrwmp2DRJM",
+        "videoPublishedAt": "2018-07-23T04:16:10.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/xtPXkObJHf1-WBmJAJXLI6k6jgU\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi4zMEQ1MEIyRTFGNzhDQzFB",
+      "snippet": {
+        "publishedAt": "2018-07-09T00:19:11.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Sacred Space - Mike Hudgins 7.8.2018 Sun.10am",
+        "description": "Sermon Outline: http://vccgn.org/s/1807Space.pdf",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XenYTEVQXJI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XenYTEVQXJI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XenYTEVQXJI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XenYTEVQXJI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XenYTEVQXJI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "XenYTEVQXJI"
+        }
+      },
+      "contentDetails": {
+        "videoId": "XenYTEVQXJI",
+        "videoPublishedAt": "2018-07-09T00:46:58.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/jzjjV-fvdHnoInaF9JirLIkuzvk\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi4xMzgwMzBERjQ4NjEzNUE5",
+      "snippet": {
+        "publishedAt": "2018-06-24T20:18:47.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Believing in your Prayers - Mike Hudgins 6.24.2018 Sun 10am.",
+        "description": "“And without faith it is impossible to please God, because anyone who comes to God must believe that He exists and that He rewards those who earnestly seek Him” (Hebrews 11:6)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3TVLrMA9GM8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3TVLrMA9GM8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3TVLrMA9GM8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3TVLrMA9GM8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3TVLrMA9GM8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "3TVLrMA9GM8"
+        }
+      },
+      "contentDetails": {
+        "videoId": "3TVLrMA9GM8",
+        "videoPublishedAt": "2018-06-24T20:29:23.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ysSUFaHXGMa7wpDrnvA9vmPTlos\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi44QzVGQUU2QjE2NDgxM0M4",
+      "snippet": {
+        "publishedAt": "2018-06-10T21:03:48.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Worship - Mike Hudgins 6.10.2018",
+        "description": "Sermon Outline:  http://vccgn.org/s/1806Worship.pdf",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b3TzlOrvPXo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b3TzlOrvPXo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b3TzlOrvPXo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/b3TzlOrvPXo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/b3TzlOrvPXo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "b3TzlOrvPXo"
+        }
+      },
+      "contentDetails": {
+        "videoId": "b3TzlOrvPXo",
+        "videoPublishedAt": "2018-06-10T21:32:19.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/ysV06jQsOMHeZrlLblEr4it_g-o\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi5ENjI1QUI0MDI5NEQzODFE",
+      "snippet": {
+        "publishedAt": "2018-06-04T00:18:12.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Living by Promise - Ryan Hulett 6.3.2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Lug0PdbcTsQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Lug0PdbcTsQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Lug0PdbcTsQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Lug0PdbcTsQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Lug0PdbcTsQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Lug0PdbcTsQ"
+        }
+      },
+      "contentDetails": {
+        "videoId": "Lug0PdbcTsQ",
+        "videoPublishedAt": "2018-06-04T00:41:50.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/1gS6bY_-uTjlRR7p5NbYAhzUoag\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi41RTNBREYwMkI5QzU3RkY2",
+      "snippet": {
+        "publishedAt": "2018-05-27T21:27:50.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Blessed & Happy - Mike Hudgins 5.27.2018 - Matt. 5:1-12",
+        "description": "Sermon Outline: http://vccgn.org/s/1805Blessed.pdf",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JdbhDGq8BJE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JdbhDGq8BJE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JdbhDGq8BJE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JdbhDGq8BJE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JdbhDGq8BJE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "JdbhDGq8BJE"
+        }
+      },
+      "contentDetails": {
+        "videoId": "JdbhDGq8BJE",
+        "videoPublishedAt": "2018-05-27T21:57:06.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/oFubg-r7UuGMP5cjM-ksjHWynM8\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi40QzRDOEU0QUYwNUIxN0M1",
+      "snippet": {
+        "publishedAt": "2018-05-20T23:34:29.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Look Higher - Mike Hudgins 5.20.2018",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NtNBmkyDcWE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NtNBmkyDcWE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NtNBmkyDcWE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NtNBmkyDcWE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NtNBmkyDcWE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "NtNBmkyDcWE"
+        }
+      },
+      "contentDetails": {
+        "videoId": "NtNBmkyDcWE",
+        "videoPublishedAt": "2018-05-21T00:50:48.000Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"XI7nbFXulYBIpL0ayR_gDh3eu1k/Ihqf5bpJCeGUOsnKtK68fh_qp_s\"",
+      "id": "UExSNFI4X1JEQmxwSGExdVlXMUpjTjFJVVpYQVVVTEdJWi4yQUJFNUVCMzVDNjcxRTlF",
+      "snippet": {
+        "publishedAt": "2018-05-14T00:54:39.000Z",
+        "channelId": "UCE8O_7WtDlJKZCEtgDEdSew",
+        "title": "Mom Grace - Mike Hudgins 5.13.2018",
+        "description": "Sermon Outline: http://vccgn.org/s/1805Mom.pdf",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lLd-DEX-UF8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lLd-DEX-UF8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lLd-DEX-UF8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/lLd-DEX-UF8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/lLd-DEX-UF8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Vineyard Church - Laguna Niguel",
+        "playlistId": "PLR4R8_RDBlpHa1uYW1JcN1IUZXAUULGIZ",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "lLd-DEX-UF8"
+        }
+      },
+      "contentDetails": {
+        "videoId": "lLd-DEX-UF8",
+        "videoPublishedAt": "2018-05-14T01:22:12.000Z"
+      }
+    }
+  ]
+}

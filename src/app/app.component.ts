@@ -30,8 +30,8 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Vineyard Media', component: ListPage },
       { title: 'Vineyard Ministries', component: AboutPage },
+      { title: 'Events', component: BulletinPage},
       { title: 'Mercy Warehouse', component: MercyWarehousePage },
-      { title: 'Events Calendar', component: BulletinPage},
       { title: 'Locations', component: LocationPage },
       { title: 'Giving', component: GivingBasePage },
       

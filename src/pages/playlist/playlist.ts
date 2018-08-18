@@ -34,11 +34,11 @@ export class PlaylistPage {
   }
   openVideo(video){
     var link = 'https://www.youtube.com/watch?v=';
-    // if (this.plt.is('cordova')) {
-    // this.youtube.openVideo(video.snippet.resourceId.videoId)
-    // } else {
+    if (this.plt.is('cordova')) {
+    this.youtube.openVideo(video.snippet.resourceId.videoId)
+    } else {
       window.open(link + video.snippet.resourceId.videoId + " '_system', 'location=yes'); return false;");
-    //}
+    }
   }
   // openVideo(video){
   //   this.navCtrl.push(VideoviewPage, {video: video});

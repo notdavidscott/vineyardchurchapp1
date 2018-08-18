@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform, ViewController } from 'ionic-angular';
 import { Observable } from 'rxjs/observable';
 import { YtProvider } from '../../providers/yt/yt';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
+import { VideoviewPage } from '../videoview/videoview';
 
 /**
  * Generated class for the PlaylistPage page.
@@ -18,26 +19,38 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 })
 export class PlaylistPage {
   videos: Observable<any[]>;
+ 
 
-  constructor(public navCtrl: NavController, private plt: Platform, private youtube: YoutubeVideoPlayer, public navParams: NavParams, private ytProvider: YtProvider) {
+  constructor(public navCtrl: NavController, public view: ViewController, private plt: Platform, private youtube: YoutubeVideoPlayer, public navParams: NavParams, private ytProvider: YtProvider) {
+  
     let listId = this.navParams.get('id');
     this.videos = this.ytProvider.getListVideos(listId);
     this.videos.subscribe(data => {
       console.log('video data', data);
     })
-  }
-
-  openVideo(video){
-    if (this.plt.is('cordova')) {
-      this.youtube.openVideo(video.snippet.resourceId.videoId)
-    } else {
-      window.open('https://www.youtube.com/watch?v=' + video.snippet.resourceId.videoId);
-    }
-    }
 
     
+
+  }
+  openVideo(video){
+    var link = 'https://www.youtube.com/watch?v=';
+    // if (this.plt.is('cordova')) {
+    // this.youtube.openVideo(video.snippet.resourceId.videoId)
+    // } else {
+      window.open(link + video.snippet.resourceId.videoId + " '_system', 'location=yes'); return false;");
+    //}
+  }
+  // openVideo(video){
+  //   this.navCtrl.push(VideoviewPage, {video: video});
+  //     //window.open('https://www.youtube.com/watch?v=' + video.snippet.resourceId.videoId);
+    
+  //   }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PlaylistPage');
+    
+  }
+  close(){
+    this.view.dismiss();
   }
 
 }

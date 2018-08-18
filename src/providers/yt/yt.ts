@@ -9,7 +9,7 @@ import 'rxjs/add/operator/map';
 export class YtProvider {
 
   apiKey = "AIzaSyDk6LakhSxN8cmTX3CMupFXvYb5aCNP7-U";
-
+  
   constructor(public http: Http) {
    
   }
@@ -28,6 +28,9 @@ export class YtProvider {
     .map(res => {
       return res.json()['items'];
     })
+  }
+  getVideo(videoId){
+    return this.http.get('https://www.youtube.com/watch?v=' + videoId);
   }
   
 }

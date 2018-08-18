@@ -14,3 +14,24 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.hidden-menu{
+    background-color: rgb(236, 236, 236);
+    
+    button {
+        color: rgb(107, 107, 107);
+        background-color: rgb(236, 236, 236);
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+
+
+}
+
+ion-navbar {
+    font-family: 'Montserrat', sans-serif;
+   
+}

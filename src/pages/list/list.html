@@ -8,18 +8,21 @@
 </ion-header>
 
 <ion-content>
-  <img id="sermon-header" src="../../assets/imgs/IMG_0616.JPG"/>
-  <div class="sermon-desc">
-    Hear messages from our church leaders!
-    <br><br>
-  </div>
-
-
-<ion-item>
-  <ion-label stacked>Channel Id</ion-label>
-  <ion-input floating type="text" [(ngModel)]="channelId"></ion-input>
+<ion-item class="card-background-page">
+    <ion-card class="home-banner">
+      <div class="card-title">Listen</div>
+      <div class="card-subtitle">to messages from our church leaders</div>
+    </ion-card>
 </ion-item>
-<button full ion-button (click)="searchPlaylist()" [disabled]="channelId === ''" color="primary">Search Playlists</button>
+
+
+<div class="hide-me">
+<ion-item>
+  <!-- <ion-label stacked>Channel Id</ion-label> -->
+  <ion-input floating type="text" hidden [(ngModel)]="channelId">Playlist Id</ion-input>
+</ion-item>
+</div>
+<button full ion-button (click)="searchPlaylist()" [disabled]="channelId === ''" color="dark">Playlists</button>
 
 <ion-list>
   <button ion-item *ngFor="let list of playlists | async" (click)="openPlaylist(list.id)">
@@ -27,45 +30,8 @@
       <img [src]="list.snippet.thumbnails.standard.url">
     </ion-thumbnail> -->
     <h2>{{ list.snippet.title }}</h2>
-    <p> {{ list.snippet.publishedAt | date: 'short'}}</p>
+  
   </button>
 </ion-list>
-
-
-
-
-<!-- 
-<ion-content>
-  <ion-item class="youtube-embed">
-     
-        Sunday Morning | Aug 8, 2018
-          <ion-item>
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/PDEXWaTyXC0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </ion-item>
- </ion-item>
- <ion-item class="youtube-embed">
-        Saturday Night | July 28, 2018
-          <ion-item> 
-              <iframe width="100%" height="auto" src="https://www.youtube.com/embed/gXG59IszUY8?start=90" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </ion-item>
- </ion-item> 
-
- <ion-item class="youtube-embed">
-        Sunday Morning | June 24, 2018
-      <ion-item> 
-          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/3TVLrMA9GM8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-          </ion-item>
-</ion-item>
-<ion-item class="youtube-embed">
-    Sunday Morning | June 10, 2018
-  <ion-item> 
-      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/b3TzlOrvPXo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </ion-item>
-</ion-item>
-
-</ion-content>
---> 
-
 
 </ion-content>

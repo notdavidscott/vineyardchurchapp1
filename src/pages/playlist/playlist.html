@@ -7,9 +7,11 @@
 <ion-header>
 
   <ion-navbar color="nav">
-    <ion-title>playlist</ion-title>
+    <ion-title>Vineyard Messages</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>
+      </ion-buttons>
   </ion-navbar>
-
 </ion-header>
 
 
@@ -18,10 +20,11 @@
   <ion-list>
     <button ion-item *ngFor="let video of videos | async" (click)="openVideo(video)">
       <!-- <ion-thumbnail item-start>
-        <img src="http://static1.squarespace.com/static/57d61ce8d1758ebde03821d7/t/5b29047e1ae6cf6e20bd0228/1534482717627/?format=1500w">
-      </ion-thumbnail>  -->
+         <ion-icon name="open"></ion-icon>
+        <img class="video-thumbs" [src]="video.snippet.thumbnails.standard.url"/>
+        </ion-thumbnail>    -->
       <h2>{{ video.snippet.title }}</h2>
-      <p> {{ video.snippet.description }}</p>
+      <p> {{ video.snippet.publishedAt | date: 'short'}}</p>
     </button>
   </ion-list>
   

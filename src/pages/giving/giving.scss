@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p|Montserrat|Seaweed+Script');
+
+// font-family: 'Seaweed Script', cursive;
+// font-family: 'M PLUS 1p', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
 page-giving {
     ion-content {
         background: url(../../assets/imgs/beach-daylight-environment-722646.jpg) no-repeat center fixed;
@@ -14,18 +20,20 @@ page-giving {
        }
         }
 
-    .giving-text {
-        color: white;
-        font-size: 6em;
-        text-align: center;
-        margin-top: 50%;
-    }
-    .giving-text-small {
-        color: white;
-        font-size: 1.75em;
-        text-align: center;
-        margin-top: 2%;
-    }
+        .giving-text {
+            color: white;
+            font-size: 7em;
+            text-align: center;
+            margin-top: 48%;
+            font-family: 'Seaweed Script', cursive;
+        }
+        .giving-text-small {
+            color: white;
+            font-size: 1.75em;
+            text-align: center;
+            margin-top: 2%;
+            font-family: 'Montserrat', sans-serif;
+        }
 }
 
     

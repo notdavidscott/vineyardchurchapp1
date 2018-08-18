@@ -20,6 +20,7 @@ import { YtProvider } from '../providers/yt/yt';
 
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { PlaylistPage } from '../pages/playlist/playlist';
+import { VideoviewPage } from '../pages/videoview/videoview';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PlaylistPage } from '../pages/playlist/playlist';
     GivingPage, 
     GivingBasePage, 
     MercyWarehousePage, 
-    PlaylistPage
+    PlaylistPage,
+    VideoviewPage
   ],
   imports: [
     BrowserModule,
@@ -52,7 +54,8 @@ import { PlaylistPage } from '../pages/playlist/playlist';
     GivingPage, 
     GivingBasePage, 
     MercyWarehousePage, 
-    PlaylistPage
+    PlaylistPage,
+    VideoviewPage
   ],
   providers: [
     StatusBar,

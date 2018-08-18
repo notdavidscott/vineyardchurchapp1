@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, AlertController } from 'ionic-angular';
+import { NavController, ViewController, NavParams, AlertController } from 'ionic-angular';
 import { Observable } from 'rxjs/observable';
 import { YtProvider } from '../../providers/yt/yt';
 import { PlaylistPage } from '../playlist/playlist';
@@ -20,10 +20,11 @@ export class ListPage {
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private ytProvider: YtProvider, private alertController: AlertController) {
+  constructor(public navCtrl: NavController, public view: ViewController, public navParams: NavParams, private ytProvider: YtProvider, private alertController: AlertController) {
   }
   ionViewDidLoad(){
-    this.searchPlaylist();
+   this.searchPlaylist();
+  
   }
 
   searchPlaylist(){

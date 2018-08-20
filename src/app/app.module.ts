@@ -21,6 +21,7 @@ import { YtProvider } from '../providers/yt/yt';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { PlaylistPage } from '../pages/playlist/playlist';
 import { VideoviewPage } from '../pages/videoview/videoview';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @NgModule({
   declarations: [
@@ -60,10 +61,10 @@ import { VideoviewPage } from '../pages/videoview/videoview';
   providers: [
     StatusBar,
     SplashScreen,
+    InAppBrowser,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     YtProvider,
     YoutubeVideoPlayer,
-    YtProvider
     
   ]
 })

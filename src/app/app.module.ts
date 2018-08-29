@@ -22,6 +22,7 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { PlaylistPage } from '../pages/playlist/playlist';
 import { VideoviewPage } from '../pages/videoview/videoview';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { RequestsPage } from '../pages/requests/requests';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     GivingBasePage, 
     MercyWarehousePage, 
     PlaylistPage,
-    VideoviewPage
+    VideoviewPage,
+    RequestsPage
+
   ],
   imports: [
     BrowserModule,
@@ -56,7 +59,8 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     GivingBasePage, 
     MercyWarehousePage, 
     PlaylistPage,
-    VideoviewPage
+    VideoviewPage,
+    RequestsPage
   ],
   providers: [
     StatusBar,

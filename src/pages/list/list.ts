@@ -19,14 +19,14 @@ export class ListPage {
  //built in list 
   selectedItem: any;
   icons: string[];
-  items: Array<{title: string, note: string, icon: string}>;
+  
 
   constructor(public navCtrl: NavController, public loadingCtrl: LoadingController, public view: ViewController, public navParams: NavParams, private ytProvider: YtProvider, private alertController: AlertController) {
   }
   presentLoading() {
     const loader = this.loadingCtrl.create({
       content: "Loading playlists...",
-      duration: 700
+      duration: 840
     });
     loader.present();
   }
@@ -44,7 +44,7 @@ export class ListPage {
     }, err => { 
       let alert= this.alertController.create({
         title: 'Error', 
-        message: 'No Playlists found for that Channel',
+        message: 'Connection Error - yT2VCC',
         buttons: ['OK']
       }); 
       alert.present();

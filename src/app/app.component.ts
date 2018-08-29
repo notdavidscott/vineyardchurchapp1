@@ -11,7 +11,7 @@ import { BulletinPage } from '../pages/bulletin/bulletin';
 import { WorshipPage } from '../pages/worship/worship';
 import { GivingBasePage } from '../pages/giving-base/giving-base';
 import { MercyWarehousePage } from '../pages/mercy-warehouse/mercy-warehouse';
-
+import { RequestsPage } from '../pages/requests/requests';
 @Component({
   templateUrl: 'app.html'
 })
@@ -30,10 +30,12 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'Vineyard Media', component: ListPage },
       { title: 'Vineyard Ministries', component: AboutPage },
-      { title: 'Events', component: BulletinPage},
-      { title: 'Mercy Warehouse', component: MercyWarehousePage },
+      //{ title: 'Events', component: BulletinPage},
+      { title: 'Prayer', component: RequestsPage},
+     // { title: 'Mercy Warehouse', component: MercyWarehousePage },
       { title: 'Locations', component: LocationPage },
       { title: 'Giving', component: GivingBasePage },
+
       
     ];
 

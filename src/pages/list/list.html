@@ -28,9 +28,10 @@
 
   
   <button ion-item *ngFor="let list of playlists | async" (click)="openPlaylist(list.id)">
-    <!-- <ion-thumbnail item-start>
-      <img [src]="list.snippet.thumbnails.standard.url">
-    </ion-thumbnail> -->
+    <ion-thumbnail item-start>
+     <img src="../../assets/imgs/vcclogo.jpg" />
+
+    </ion-thumbnail>
     <h2>{{ list.snippet.title }}</h2>
   
   </button>

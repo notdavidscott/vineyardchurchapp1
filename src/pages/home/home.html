@@ -18,22 +18,34 @@
           <!-- <div class="card-subtitle">Vineyard Community Church</div> -->
         </ion-card>
     </ion-item>
+<div class="black-box">
 
-   
+</div>
+
+
         <ion-card class="discover-card">
              <ion-card-header>
               Get Involved
             </ion-card-header>
 
             <ion-card-content>
-            
-                <img src="../../assets/imgs/adults-bestfriends-bright-1194412.jpg"/>
+
+                <ion-slides pager>
+                    <ion-slide *ngFor="let slide of slides">
+                    
+                      <img [src]="slide.image" class="slide-image"/>
+                      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
+                      <p [innerHTML]="slide.description"></p>
+                    </ion-slide>
+
+                  </ion-slides>
+                <!-- <img src="../../assets/imgs/adults-bestfriends-bright-1194412.jpg"/>
     
                 <p style="font-size:1.5em;">VCC is a vibrant church family. Our passion is to 
                   produce a culture that encourages our people to have repeated supernatural, 
                   life-changing encounters with the love and power of Jesus to save and heal. 
                   Come join us!</p>
-              
+               -->
               </ion-card-content>
           </ion-card>
        
@@ -53,7 +65,22 @@
           </ion-card>
        
           <ion-card class="discover-card">
-            <ion-card-header>
+              <ion-card-header>
+               Community & Fellowship
+             </ion-card-header>
+ 
+             <ion-card-content>
+             
+                 <img src="../../assets/imgs/audience-blur-bokeh-976866.jpg"/>
+                <p style="font-size:1.5em;">We value relationships. Here at VCC we always have something going on. 
+                  <a href="http://www.vcchurch.com/new-events/">Community Events</a>
+
+                </p>
+               
+               </ion-card-content>
+           </ion-card>
+          <ion-card class="discover-card" style="background-color:#3d3d3d;">
+            <ion-card-header style="color:rgb(204, 204, 204);">
              Follow Us!
            </ion-card-header>
 
@@ -61,13 +88,13 @@
               <ion-grid>
                   <ion-row>
                     <ion-col col-3 offset-2>
-                      <a href="https://www.facebook.com/vccln/"><ion-icon name="logo-facebook" color="primary"></ion-icon></a>
+                      <a href="https://www.facebook.com/vccln/"><ion-icon name="logo-facebook" style="color:rgb(204, 204, 204);"></ion-icon></a>
                     </ion-col>
                     <ion-col col-3 style="margin-right:3%;">
-                     <a href="https://www.youtube.com/c/VineyardChurchLagunaNiguel"> <ion-icon name="logo-youtube" color="danger"></ion-icon></a>
+                     <a href="https://www.youtube.com/c/VineyardChurchLagunaNiguel/"> <ion-icon name="logo-youtube" style="color:rgb(204, 204, 204);"></ion-icon></a>
                     </ion-col>
                     <ion-col col-3>
-                     <a href="https://www.instagram.com/vcchurch_lagunaniguel/"><ion-icon name="logo-instagram"></ion-icon></a>
+                     <a href="https://www.instagram.com/vcchurch_lagunaniguel/"><ion-icon name="logo-instagram" style="color:rgb(204, 204, 204);"></ion-icon></a>
                     </ion-col>
                   </ion-row>
         
